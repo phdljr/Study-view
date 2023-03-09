@@ -1,0 +1,10 @@
+.flex-center{
+
+}
+
+.div-border{
+    border-color: black;
+    border: solid;
+    width: 200px;
+    height: 200px;
+}

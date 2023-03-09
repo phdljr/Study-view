@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  style="height: 100%;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,80 +7,17 @@
     <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/test/click.js"></script>
     <script type="text/javascript" src="js/hello.js"></script>    
+    <link rel="stylesheet" href="css/height-full.css">
+    <link rel="stylesheet" href="css/st-display.css">
+    <link rel="stylesheet" href="css/flex-center.css">
+
     <title>Document</title>
-
-    <script type="text/javascript">
-        
-        $(document).ready(()=>{
-            loginCheck()
-                .then(roleCheck)
-                .catch(()=> {
-                    alert(1);
-                })
-        });
-
-
-        function loginCheck() {
-            // resolve => 성공 / reject : 실패
-            return new Promise((resolve, reject)=>{
-                console.log(1);
-                $.ajax({
-                    asdfasdf,
-                    success: (result)=> {
-                        resolve()
-                    },
-                    error: ()=> {
-                        reject();
-                    }
-                })
-            });
-        }
-
-        function roleCheck() {
-            // resolve => 성공 / reject : 실패
-            return new Promise((resolve, reject)=>{
-                console.log(1);
-                $.ajax({
-                    asdfasdf,
-                    success: (result)=> {
-                        resolve()
-                    },
-                    error: ()=> {
-                        reject();
-                    }
-                })
-            });
-        }
-
-        function loginCheck() {
-            // resolve => 성공 / reject : 실패
-            return new Promise((resolve, reject)=>{
-                console.log(1);
-                $.ajax({
-                    asdfasdf,
-                    success: (result)=> {
-                        resolve()
-                    },
-                    error: ()=> {
-                        reject();
-                    }
-                })
-            });
-        }
-
-
-        /**
-            1. ID/PW 검증(ajax)
-            2. 권한 (ajax)
-            3. 어느페이지로 이동 (window.location)
-        */
-    </script>
 </head>
-<body>
-    <button class="btn-click">클릭</button>
-    <button class="btn-click">클릭2</button>
-    <button class="btn-click">클릭3</button>
-    <button class="btn-click">클릭4</button>
-    <button class="btn-click">클릭5</button>
+<body class="container-height-full"></body>
+    <div class="container-height-full position-flex">
+        <div class="div-border">
+            
+        </div>
+    </div>
 </body>
 </html>
