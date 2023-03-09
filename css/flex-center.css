@@ -1,10 +1,14 @@
-.flex-center{
-
-}
-
 .div-border{
+    display: flex;
     border-color: black;
     border: solid;
     width: 200px;
     height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2 {
+    position: relative;
+    top: 50px;
 }
