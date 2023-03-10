@@ -1,0 +1,15 @@
+.nav-container{
+    display: flex;
+    border-color: black;
+    border: solid;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-item{
+    float: left;
+}
+
+.nav-item-login{
+    float: right;
+}
